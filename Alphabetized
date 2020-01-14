@@ -1,0 +1,11 @@
+let string = ("This is a sentence made of Words");
+let splitString = string.split("");
+let sortedArray = splitString.sort();
+let outputArray = [];
+for (i=0;i<sortedArray.length;i++) {
+	if (sortedArray[i] != undefined) {
+	 outputArray.push(sortedArray[i])
+	}
+}
+let output = outputArray.join("");
+console.log(output);	
